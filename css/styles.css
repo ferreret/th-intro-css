@@ -1,18 +1,30 @@
-@import "import-styles.css";
+/* Universal selector
+* {
+	margin: 0;
+	padding: 0;
+	color: red;
+}
+*/
 
 body {
-	text-align: center;
-}
-
-h1 {
-	font-size: 72px;
-	color: white;
+	color: #878787;	
+	margin: 0;
 }
 
 header {
 	background-color: orange;
 }
 
-p {
+h1 {
+	color: white;
+	font-size: 90px;
+}
+
+h2 {
+	font-size: 53px;	
+}
+
+h3 {
 	font-size: 20px;
+	color: #48525C;
 }

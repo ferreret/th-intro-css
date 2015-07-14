@@ -25,16 +25,9 @@ h3 {
 	color: #48525C;
 }
 
-ol li {
-	background-color: tomato;
-	color: white;
-	margin-bottom: 5px;
-}
-
 .main-header {
 	background-color: orange;
 }
-
 
 .primary-content {
 	text-align: center;
@@ -53,4 +46,25 @@ ol li {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	border-bottom: solid 10px orange;
+}
+
+a:link {
+	color: orange;
+}
+
+a:visited {
+	color: lightblue;
+}
+
+a:hover {
+	color: forestgreen;
+}
+
+a:active {
+	color: lightcoral;
+}
+
+a:focus {
+	color: white;
+	background-color: orange;
 }

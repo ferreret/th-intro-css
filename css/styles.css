@@ -1,70 +1,72 @@
-/* Universal selector
-* {
-	margin: 0;
-	padding: 0;
-	color: red;
-}
-*/
+/* Type Selectors ------------------ */
 
 body {
-	color: #878787;	
-	margin: 0;
+  color: #878787;
+  margin: 0;  
+  font-size: 1em;
 }
 
-h1 {
-	color: white;
-	font-size: 90px;
+h1 {  
+  font-size: 5.625em;
+  color: white;
 }
 
 h2 {
-	font-size: 53px;	
+  font-size: 53px;
 }
 
 h3 {
-	font-size: 20px;
-	color: #48525C;
+  font-size: 20px;
+  color: #48525c;
 }
 
-.main-header {
-	background-color: orange;
-}
-
-.primary-content {
-	text-align: center;
-}
-
-.t-border {
-	border-top: 2px solid lightgrey;	
-}
-
-.title { 
-	color: white;
-	font-size: 26px;
-}
-
-#main-footer {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	border-bottom: solid 10px orange;
-}
+/* Pseudo-classes ------------------ */
 
 a:link {
-	color: orange;
+  color: orange;
 }
 
 a:visited {
-	color: lightblue;
+  color: lightblue;
 }
 
 a:hover {
-	color: forestgreen;
+  color: forestgreen;
 }
 
 a:active {
-	color: lightcoral;
+  color: lightcoral;
 }
 
-a:focus {
-	color: white;
-	background-color: orange;
+/* ID Selectors -------------------- */
+
+#main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: solid 10px orange;
+}
+
+/* Class Selectors ----------------- */
+
+.main-header {
+  background-color: orange;
+  width: 960px;
+}
+
+.title {
+  color: white;
+  font-size: 1.625em;
+}
+
+.primary-content {
+  text-align: center;
+}
+
+.primary-content,
+.secondary-content {
+	width: 60%;
+}
+
+.t-border {
+  border-top: 2px solid lightgrey; /* Top border styles */
 }

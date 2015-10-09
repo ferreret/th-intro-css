@@ -6,6 +6,7 @@
 }
 */
 
+/* Type selectors */
 body {
 	color: #878787;	
 	margin: 0;
@@ -25,6 +26,7 @@ h3 {
 	color: #48525C;
 }
 
+/* Class selectors */
 .main-header {
 	background-color: orange;
 }
@@ -42,12 +44,14 @@ h3 {
 	font-size: 26px;
 }
 
+/* Id selectors */
 #main-footer {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	border-bottom: solid 10px orange;
 }
 
+/* Pseudo clases selectors */
 a:link {
 	color: orange;
 }
